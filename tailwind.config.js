@@ -1,22 +1,14 @@
-/** @type {import('tailwindcss').Config} */
-const config = {
+module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       colors: {
-        primary: "#00ffd6",
-        background: "#0a0a0f",
-        card: "#1a1a2e",
-        text: "#e0e0e0",
-        subtext: "#a0a0a0",
-      },
-      fontFamily: {
-        sans: ["Inter", "sans-serif"],
-        heading: ["Poppins", "sans-serif"],
+        dark: "#0a0a1a",
+        "dark-light": "#1a1b2e",
+        accent: "#6366f1", // Indigo
+        "accent-dark": "#4338ca", // Deeper Indigo
       },
     },
   },
   plugins: [],
 };
-
-export default config;
