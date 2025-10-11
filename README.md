@@ -25,18 +25,6 @@ It showcases my projects, experience, and includes fun particle effects and a sc
 
 ---
 
-## 📂 Project Structure
-
-src/
-├─ components/ # Reusable components (Header, Hero, Footer, etc.)
-├─ content/ # Project data
-├─ pages/ # Page-level components
-├─ App.tsx # Main layout
-├─ main.tsx # Entry point
-└─ index.css # Tailwind setup
-
----
-
 ## 🚀 Getting Started
 
 ### 1. Clone the repo
